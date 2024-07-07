@@ -1,2 +1,2 @@
-# BastionUpdater
-Updater for all Bastion projects
+# Bastion Updater
+All-in-one customisable software updater in C#.  

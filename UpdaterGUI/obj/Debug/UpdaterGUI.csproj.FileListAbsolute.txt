@@ -1,0 +1,12 @@
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\bin\Debug\UpdaterGUI.exe
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\bin\Debug\UpdaterGUI.pdb
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\obj\Debug\UpdaterGUI.csproj.AssemblyReference.cache
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\obj\Debug\UpdaterGUI.Form1.resources
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\obj\Debug\UpdaterGUI.Properties.Resources.resources
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\obj\Debug\UpdaterGUI.csproj.GenerateResource.cache
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\obj\Debug\UpdaterGUI.csproj.CoreCompileInputs.cache
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\obj\Debug\UpdaterGUI.exe
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\obj\Debug\UpdaterGUI.pdb
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\skalf\Desktop\Aedan\Git\BastionUpdater\UpdaterGUI\obj\Debug\UpdaterGUI.csproj.Up2Date
