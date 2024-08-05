@@ -1,0 +1,12 @@
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\x86\Debug\UpdaterCLI.exe
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\x86\Debug\UpdaterCLI.pdb
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\x86\Debug\Interop.Shell32.dll
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\x86\Debug\UpdaterCLI.csproj.AssemblyReference.cache
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\x86\Debug\Interop.Shell32.dll
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\x86\Debug\UpdaterCLI.csproj.ResolveComReference.cache
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\x86\Debug\UpdaterCLI.csproj.CoreCompileInputs.cache
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\x86\Debug\UpdaterCLI.csproj.Up2Date
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\x86\Debug\UpdaterCLI.exe
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\x86\Debug\UpdaterCLI.pdb

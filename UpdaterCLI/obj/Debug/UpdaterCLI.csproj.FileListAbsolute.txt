@@ -1,0 +1,11 @@
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\Debug\UpdaterCLI.exe
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\Debug\UpdaterCLI.pdb
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\Debug\UpdaterCLI.csproj.AssemblyReference.cache
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\Debug\UpdaterCLI.csproj.CoreCompileInputs.cache
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\Debug\UpdaterCLI.csproj.Up2Date
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\Debug\UpdaterCLI.exe
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\obj\Debug\UpdaterCLI.pdb
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\Debug\DotNetZip.dll
+C:\Users\ndrwcube\Documents\GitHub\BastionUpdater\UpdaterCLI\bin\Debug\DotNetZip.xml
