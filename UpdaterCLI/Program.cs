@@ -16,7 +16,9 @@ namespace UpdaterCLI
     {
         static void Main(string[] args)
         {
-            ServicePointManager.SecurityProtocol = (SecurityProtocolType)(0xc00);
+            //https://stackoverflow.com/questions/47269609/system-net-securityprotocoltype-tls12-definition-not-found
+            //https://learn.microsoft.com/en-us/dotnet/api/system.net.securityprotocoltype
+            ServicePointManager.SecurityProtocol = (SecurityProtocolType)(12288); //TLS 1.3
             if (args.Length >= 2)
             {
                 if (args[0] == "install")
@@ -74,7 +76,7 @@ namespace UpdaterCLI
         {
             using (WebClient client = new WebClient())
             {
-                return JObject.Parse(client.DownloadString("https://raw.githubusercontent.com/BastionDevs/BastionUpdater/main/packages.json").Substring(3));
+                return JObject.Parse(client.DownloadString("https://raw.githubusercontent.com/BastionDevs/BastionUpdater/main/packages.json"));
             }
         }
     }
