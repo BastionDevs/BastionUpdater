@@ -54,6 +54,8 @@ namespace UpdaterCLI
                 {
                     zip.ExtractAll(@"C:\BastionSG\" + id);
                 }
+
+                File.Delete(@"C:\BastionSG\Updater\DL\" + id + @"\download.zip");
             } else
             {
                 Console.WriteLine("Invalid package ID");
