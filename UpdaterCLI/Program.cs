@@ -16,6 +16,7 @@ namespace UpdaterCLI
     {
         static void Main(string[] args)
         {
+            ServicePointManager.SecurityProtocol = (SecurityProtocolType)(0xc00);
             if (args.Length >= 2)
             {
                 if (args[0] == "install")
@@ -73,7 +74,7 @@ namespace UpdaterCLI
         {
             using (WebClient client = new WebClient())
             {
-                return JObject.Parse(client.DownloadString("https://raw.githubusercontent.com/BastionDevs/BastionUpdater/main/packages.json"));
+                return JObject.Parse(client.DownloadString("https://raw.githubusercontent.com/BastionDevs/BastionUpdater/main/packages.json").Substring(3));
             }
         }
     }
