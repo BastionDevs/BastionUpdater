@@ -16,13 +16,13 @@ namespace UpdaterCLI
     {
         static void Main(string[] args)
         {
-            //https://stackoverflow.com/questions/47269609/system-net-securityprotocoltype-tls12-definition-not-found
-            //https://learn.microsoft.com/en-us/dotnet/api/system.net.securityprotocoltype
-            ServicePointManager.SecurityProtocol = (SecurityProtocolType)(12288); //TLS 1.3
             if (args.Length >= 2)
             {
                 if (args[0] == "install")
                 {
+                    //https://stackoverflow.com/questions/47269609/system-net-securityprotocoltype-tls12-definition-not-found
+                    //https://learn.microsoft.com/en-us/dotnet/api/system.net.securityprotocoltype
+                    ServicePointManager.SecurityProtocol = (SecurityProtocolType)(3072); //TLS 1.2
                     Install(args[1]);
                 }
                 else if (args[0] == "uninstall")
@@ -34,7 +34,7 @@ namespace UpdaterCLI
                 }
             } else
             {
-                Console.WriteLine();
+                Console.WriteLine("No arguments given");
             }
         }
 
@@ -47,7 +47,7 @@ namespace UpdaterCLI
                     Directory.CreateDirectory(@"C:\BastionSG\");
                     Directory.CreateDirectory(@"C:\BastionSG\" + id);
                     Directory.CreateDirectory(@"C:\BastionSG\Updater\DL\" + id);
-                }
+                } else { Console.WriteLine("Package already installed, please uninstall first"); Environment.Exit(0); }
                 new WebClient().DownloadFile("https://raw.githubusercontent.com/BastionDevs/BastionUpdater/main/pkg/"+id+"/latest/download.zip", @"C:\BastionSG\Updater\DL\"+id+@"\download.zip");
                 
                 using (ZipFile zip = ZipFile.Read(@"C:\BastionSG\Updater\DL\" + id + @"\download.zip"))
