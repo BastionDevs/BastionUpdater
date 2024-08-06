@@ -23,11 +23,11 @@ namespace UpdaterCLI
                     //https://stackoverflow.com/questions/47269609/system-net-securityprotocoltype-tls12-definition-not-found
                     //https://learn.microsoft.com/en-us/dotnet/api/system.net.securityprotocoltype
                     ServicePointManager.SecurityProtocol = (SecurityProtocolType)(3072); //TLS 1.2
-                    Install(args[1]);
+                    Install(args[1].ToLower());
                 }
                 else if (args[0] == "uninstall")
                 {
-                    Uninstall(args[1]);
+                    Uninstall(args[1].ToLower());
                 } else
                 {
                     Console.WriteLine("Unrecognised command");
